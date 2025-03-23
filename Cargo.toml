@@ -1,0 +1,14 @@
+[package]
+name = "specviewer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = { version = "0.31.1", features = ["persistence"] }
+egui = "0.31.1"
+egui_plot = "0.31.0"
+microfft = { version = "0.6.0", features = ["size-8192"] }
+num-complex = "0.4.6"
+rustfft = "6.2.0"
+serde = { version = "1.0.219", features = ["serde_derive"] }
+serialport = "4.7.0"
